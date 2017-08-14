@@ -1,0 +1,48 @@
+{
+  "name": "rhmap-websockets-cloud",
+  "version": "0.1.0",
+  "description": "A WebSocket demo for Red Hat Mobile application platform using socket.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_PATH=. node application.js | bunyan",
+    "serve": "NODE_PATH=. nodemon application.js | bunyan"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evanshortiss/rhmap-websockets-cloud.git"
+  },
+  "keywords": [
+    "websocket",
+    "socket.io",
+    "rhmap"
+  ],
+  "author": "Evan Shortiss",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/evanshortiss/rhmap-websockets-cloud/issues"
+  },
+  "homepage": "https://github.com/evanshortiss/rhmap-websockets-cloud#readme",
+  "dependencies": {
+    "bluebird": "~3.5.0",
+    "cors": "~2.8.4",
+    "env-var": "~2.4.3",
+    "express": "~4.15.3",
+    "fh-bunyan": "~0.3.0",
+    "fh-mbaas-api": "~6.1.8",
+    "joi": "~10.6.0",
+    "lodash": "~4.17.4",
+    "socket.io": "~2.0.3"
+  },
+  "devDependencies": {
+    "bunyan": "~1.8.12",
+    "dotenv": "~4.0.0",
+    "eslint": "~4.3.0",
+    "mocha": "~3.5.0",
+    "nodemon": "~1.11.0",
+    "supertest": "~3.0.0"
+  },
+  "engines": {
+    "node": ">=4.4"
+  }
+}
