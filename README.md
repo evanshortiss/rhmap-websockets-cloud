@@ -2,8 +2,11 @@
 
 ## Introduction
 A WebSocket server that can be deployed on Red Hat Mobile Application Platform
-3.X and 4.X. The server facilitates a simple chat application that can be found
-[here](https://github.com/evanshortiss/rhmap-websockets-client).
+3.X and 4.X.
+
+## Client Application
+This server powers a chat application that can be found [here](https://github.com/evanshortiss/rhmap-websockets-client).
+
 
 ## Prerequisites
 
